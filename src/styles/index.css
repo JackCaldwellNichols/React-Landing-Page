@@ -1,12 +1,24 @@
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.jumbotron {
+    background-color: rgb(199, 199, 199);
 
-*/
+    margin-bottom: 2px;
+}
+
+
+.footer {
+    margin-bottom: 0px;
+    color: white;
+    padding: 50px;
+}
+
+.FooterText {
+    display: flex;
+    margin: auto;
+}
+
+.card { transition: all .5s ease-in-out; }
+.card:hover { transform: scale(1.1); }
+
+
