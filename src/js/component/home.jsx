@@ -12,7 +12,7 @@ import Footer from "../component/NavBottom.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="container-fluid">
+		<div className="container-fluid w-100">
 			<Navbar brand= "Start Bootstrap" home="Home" about = "About" services = "Servces" contact = "Contact"/>
 			<Jumbotron title ="A very warm welcome!" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi praesentium, velit facilis quam laborum nemo distinctio suscipit fugit repellendus ut debitis delectus ex numquam repellat similique temporibus magni est? Illum?" buttonLabel="Call to action!" buttonUrl="https:www.bbc.com"/>
 			<BootstrapCard title1="Some Mountainous Terrain" title2="A round of Golf" title3="Pebbles on the Shore" title4="Multiple Horizons" 
